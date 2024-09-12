@@ -12,29 +12,29 @@ import useStyle from './services-style';
 
 const services = [
   {
-    icon: 'ion-ios-color-wand',
-    name: 'UI Interface Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-logo-facebook',
+    name: 'Social Media Marketing',
+    desc: 'Grow your brand with targeted social media campaigns.'
   },
   {
-    icon: 'ion-logo-dribbble',
-    name: 'Icon Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-ios-trending-up',
+    name: 'Google & Social Ads',
+    desc: 'Create and manage highly effective ad campaigns.'
   },
   {
-    icon: 'ion-ios-globe',
-    name: 'HTML Prototyping',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-ios-mail',
+    name: 'Email Marketing',
+    desc: 'Engage your audience with personalized email campaigns.'
   },
   {
-    icon: 'ion-ios-camera',
-    name: 'Photo Editing',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-ios-search',
+    name: 'SEO Optimization',
+    desc: 'Boost your website rankings with On-Page and Local SEO strategies.'
   },
   {
-    icon: 'ion-ios-snow',
-    name: 'Graphic Illustrations',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-ios-key',
+    name: 'Keyword Research & Lead Generation',
+    desc: 'Find high-converting keywords and generate valuable leads.'
   }
 ];
 

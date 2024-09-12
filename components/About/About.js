@@ -10,6 +10,7 @@ import { useTranslation } from 'next-i18next';
 import brand from '~/public/text/brand';
 import { useText } from '~/theme/common';
 import useStyles from './about-style';
+import ProfilePic from '../../public/images/img/profile.jpg';
 
 function About() {
   const theme = useTheme();
@@ -38,7 +39,7 @@ function About() {
                   <figure>
                     <img src="/images/unisex/reward2.svg" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>100k videos</Typography>
+                  <Typography component="p" className={text.paragraph}>10k videos</Typography>
                   <Typography variant="h5" className={text.subtitle}>Subscriber</Typography>
                 </div>
                 <div className={classes.item}>
@@ -72,7 +73,7 @@ function About() {
               )}
               <Paper className={classes.photo}>
                 <figure>
-                  <img src={brand.unisex.avatar} alt="avatar" />
+                  <img src={ProfilePic} alt="avatar" style={{ height: '100%' }} />
                 </figure>
                 <span className={classes.frame} />
               </Paper>

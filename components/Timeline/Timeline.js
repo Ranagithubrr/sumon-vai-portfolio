@@ -54,9 +54,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Creative Director</Typography>
-                        <Typography gutterBottom>at Fourth Company</Typography>
-                        <Typography className={classes.time}>2015 - Present</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Digital Marketer</Typography>
+                        <Typography gutterBottom>at Nifty IT Solution Ltd</Typography>
+                        <Typography className={classes.time}>July 2023 - Present</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -69,9 +69,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Senior UI/UX Designer</Typography>
-                        <Typography gutterBottom>at Third Company</Typography>
-                        <Typography className={classes.time}>2013 - 2015</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Digital Marketer</Typography>
+                        <Typography gutterBottom>at Nifty Bookkeepers LLC</Typography>
+                        <Typography className={classes.time}>June 2023 -  Present </Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -84,9 +84,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>UI/UX Designer</Typography>
-                        <Typography gutterBottom>at Second Company</Typography>
-                        <Typography className={classes.time}>2012 - 2013</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Digital Marketing Consultant</Typography>
+                        <Typography gutterBottom>at SEOClerks</Typography>
+                        <Typography className={classes.time}>January 2018 - Present</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -99,9 +99,69 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>UI/UX Designer</Typography>
-                        <Typography gutterBottom>at First Company</Typography>
-                        <Typography className={classes.time}>2009 - 2011</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Digital Marketer</Typography>
+                        <Typography gutterBottom>at Fiverr</Typography>
+                        <Typography className={classes.time}>October 2020 - Present</Typography>
+                      </div>
+                    </ScrollAnimation>
+                  </li>
+                  <li>
+                    <ScrollAnimation
+                      animateOnce
+                      animateIn="fadeInLeftShort"
+                      offset={300}
+                      delay={500}
+                      duration={0.3}
+                    >
+                      <div>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Digital Marketing Executive</Typography>
+                        <Typography gutterBottom>at Picasa Limited</Typography>
+                        <Typography className={classes.time}>November 2022 - August 2023</Typography>
+                      </div>
+                    </ScrollAnimation>
+                  </li>
+                  <li>
+                    <ScrollAnimation
+                      animateOnce
+                      animateIn="fadeInLeftShort"
+                      offset={300}
+                      delay={500}
+                      duration={0.3}
+                    >
+                      <div>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Chief of Digital Marketer</Typography>
+                        <Typography gutterBottom>at Solution Flows</Typography>
+                        <Typography className={classes.time}>May 2020 - September 2022</Typography>
+                      </div>
+                    </ScrollAnimation>
+                  </li>
+                  <li>
+                    <ScrollAnimation
+                      animateOnce
+                      animateIn="fadeInLeftShort"
+                      offset={300}
+                      delay={500}
+                      duration={0.3}
+                    >
+                      <div>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Digital Marketing Trainer</Typography>
+                        <Typography gutterBottom>at Genius Computer & Technology</Typography>
+                        <Typography className={classes.time}>March 2019 - January 2020</Typography>
+                      </div>
+                    </ScrollAnimation>
+                  </li>
+                  <li>
+                    <ScrollAnimation
+                      animateOnce
+                      animateIn="fadeInLeftShort"
+                      offset={300}
+                      delay={500}
+                      duration={0.3}
+                    >
+                      <div>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Teacher Assistant</Typography>
+                        <Typography gutterBottom>at FAME- Academy School & College</Typography>
+                        <Typography className={classes.time}>January 2017 - December 2019</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -123,12 +183,12 @@ function Timeline() {
                   <ul>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-color-wand" />
-                        <Typography variant="h6" className={text.subtitle2}>UI Interface Design</Typography>
+                        {/* <i className="ion-ios-color-wand" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Social Media Marketer</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 80 : 0}
+                        value={play ? 85 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -137,12 +197,12 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-logo-dribbble" />
-                        <Typography variant="h6" className={text.subtitle2}>Icon Design</Typography>
+                        {/* <i className="ion-logo-dribbble" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Social Ads</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 70 : 0}
+                        value={play ? 87 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -151,12 +211,12 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-globe" />
-                        <Typography variant="h6" className={text.subtitle2}>HTML Prototyping</Typography>
+                        {/* <i className="ion-ios-globe" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Google Ads</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 60 : 0}
+                        value={play ? 75 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -165,8 +225,8 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-camera" />
-                        <Typography variant="h6" className={text.subtitle2}>Photo Editing</Typography>
+                        {/* <i className="ion-ios-camera" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Email Marketing</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -179,12 +239,68 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-snow" />
-                        <Typography variant="h6" className={text.subtitle2}>Graphic Illustrations</Typography>
+                        {/* <i className="ion-ios-snow" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>On-Page SEO (WordPress)</Typography>
+                      </div>
+                      <LinearProgress
+                        variant="determinate"
+                        value={play ? 87 : 0}
+                        classes={{
+                          root: classes.progressBg,
+                          bar: classes.bar
+                        }}
+                      />
+                    </li>
+                    <li>
+                      <div className={classes.textIcon}>
+                        {/* <i className="ion-ios-snow" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Local SEO</Typography>
+                      </div>
+                      <LinearProgress
+                        variant="determinate"
+                        value={play ? 65 : 0}
+                        classes={{
+                          root: classes.progressBg,
+                          bar: classes.bar
+                        }}
+                      />
+                    </li>
+                    <li>
+                      <div className={classes.textIcon}>
+                        {/* <i className="ion-ios-snow" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Youtube SEO</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
                         value={play ? 80 : 0}
+                        classes={{
+                          root: classes.progressBg,
+                          bar: classes.bar
+                        }}
+                      />
+                    </li>
+                    <li>
+                      <div className={classes.textIcon}>
+                        {/* <i className="ion-ios-snow" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Keyword Research</Typography>
+                      </div>
+                      <LinearProgress
+                        variant="determinate"
+                        value={play ? 92 : 0}
+                        classes={{
+                          root: classes.progressBg,
+                          bar: classes.bar
+                        }}
+                      />
+                    </li>
+                    <li>
+                      <div className={classes.textIcon}>
+                        {/* <i className="ion-ios-snow" /> */}
+                        <Typography variant="h6" className={text.subtitle2}>Lead Generation</Typography>
+                      </div>
+                      <LinearProgress
+                        variant="determinate"
+                        value={play ? 95 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar

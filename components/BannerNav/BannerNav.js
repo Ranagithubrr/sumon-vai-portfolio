@@ -46,11 +46,11 @@ function BannerNav(props) {
           <div className={classes.banner}>
             <div className={classes.cover}>
               <div className={classes.figure}>
-                { bannerHero === 'image' && <div className={classes.img} style={{ backgroundImage: `url(${brand.unisex.cover})` }} /> }
-                { bannerHero === 'video' && <VideoHero /> }
-                { bannerHero === 'animation' && <Animation /> }
-                { bannerHero === 'animation-slide' && <AnimationSlideshow /> }
-                { bannerHero === 'slideshow' && <Slideshow /> }
+                {bannerHero === 'image' && <div className={classes.img} style={{ backgroundImage: `url(${brand.unisex.cover})` }} />}
+                {bannerHero === 'video' && <VideoHero />}
+                {bannerHero === 'animation' && <Animation />}
+                {bannerHero === 'animation-slide' && <AnimationSlideshow />}
+                {bannerHero === 'slideshow' && <Slideshow />}
               </div>
             </div>
             {!isTablet && (
@@ -61,11 +61,13 @@ function BannerNav(props) {
             <div className={classes.text}>
               <Typography variant="h4" className={text.title2}>
                 {t('unisex-landing.banner_greeting')}
-                ,
               </Typography>
               <Typography variant="h2" className={text.title}>
                 {t('unisex-landing.banner_me')}
-                &nbsp;James,&nbsp;
+                &nbsp;Sumon Chandra Das&nbsp;
+                {/* {brand.unisex.title} */}
+              </Typography>
+              <Typography variant="h4" className={text.title2}>
                 {brand.unisex.title}
               </Typography>
               {!isMobile && (
@@ -74,8 +76,22 @@ function BannerNav(props) {
                     {t('unisex-landing.banner_desc')}
                   </Typography>
                   <div className={classes.socmed}>
-                    <Button variant="outlined" className={classes.download} component="a">Download CV</Button>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                    <Button
+                      variant="outlined"
+                      className={classes.download}
+                      component="a"
+                      href="../../public/files/resume.pdf"
+                      download="My_CV.pdf"
+                    >
+                      Download CV
+                    </Button>
+                    <IconButton
+                      aria-label="Delete"
+                      className={classes.margin}
+                      size="small"
+                      href="https://www.facebook.com/MarketerSumon12"
+                      target="_blank"
+                    >
                       <i className="ion-logo-facebook" />
                     </IconButton>
                     <IconButton aria-label="Delete" className={classes.margin} size="small">
@@ -84,7 +100,13 @@ function BannerNav(props) {
                     <IconButton aria-label="Delete" className={classes.margin} size="small">
                       <i className="ion-logo-instagram" />
                     </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                    <IconButton
+                      aria-label="Delete"
+                      className={classes.margin}
+                      size="small"
+                      href="https://www.linkedin.com/in/marketersumon12/"
+                      target="_blank"
+                    >
                       <i className="ion-logo-linkedin" />
                     </IconButton>
                   </div>

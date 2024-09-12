@@ -42,7 +42,7 @@ function Counter() {
                   <div className={classes.text}>
                     <i className="ion-ios-briefcase-outline" />
                     <Typography variant="h4" className={text.title}>
-                      {countup(123, play)}
+                      {countup(81, play)}
                     </Typography>
                   </div>
                   <Typography variant="h6" className={text.subtitle2}>
@@ -56,7 +56,7 @@ function Counter() {
                 <div className={classes.text}>
                   <i className="ion-ios-time-outline" />
                   <Typography variant="h4" className={text.title}>
-                    {countup(4567, play)}
+                    {countup(6768, play)}
                   </Typography>
                 </div>
                 <Typography variant="h6" className={text.subtitle2}>
@@ -69,7 +69,7 @@ function Counter() {
                 <div className={classes.text}>
                   <i className="ion-ios-heart-outline" />
                   <Typography variant="h4" className={text.title}>
-                    {countup(89, play)}
+                    {countup(56, play)}
                   </Typography>
                 </div>
                 <Typography variant="h6" className={text.subtitle2}>

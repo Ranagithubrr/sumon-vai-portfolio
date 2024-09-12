@@ -98,7 +98,7 @@ const aboutStyles = makeStyles({ uniqId: 'about' })(theme => ({
     marginTop: -140,
     background: theme.palette.common.white,
     width: 270,
-    height: 335,
+    height: 270,
     zIndex: 1,
     borderRadius: theme.rounded.big,
     [theme.breakpoints.down('md')]: {

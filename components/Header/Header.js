@@ -181,9 +181,16 @@ function Header(props) {
                         {brand.unisex.title}
                       </Typography>
                     </div>
-                    <Button variant="outlined" color="primary" className={classes.download} component="a">Download CV</Button>
+                    <Button
+                      href="https://drive.usercontent.google.com/download?id=1r5dk2VMVlIWENQP2fyso4JKNe4GjwHQm&export=download&authuser=0&confirm=t&uuid=5fcac9f7-56f2-4c8b-bfce-957fbbd3c45d&at=AO7h07e5bu8wLGWEedAurYoJn1Bb:1726138408061"
+                      download="Your_CV.pdf"
+                      variant="outlined"
+                      color="primary"
+                      className={classes.download}
+                      component="a"
+                    >Download CV</Button>
                     <div className={classes.socmed}>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <IconButton href="https://www.facebook.com/MarketerSumon12" target="_blank" aria-label="Delete" className={classes.margin} size="small">
                         <i className={cx('ion-logo-facebook', classes.fb)} />
                       </IconButton>
                       <IconButton aria-label="Delete" className={classes.margin} size="small">
@@ -192,21 +199,16 @@ function Header(props) {
                       <IconButton aria-label="Delete" className={classes.margin} size="small">
                         <i className={cx('ion-logo-twitter', classes.tw)} />
                       </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <IconButton href="https://www.linkedin.com/in/marketersumon12/" target="_blank" aria-label="Delete" className={classes.margin} size="small">
                         <i className={cx('ion-logo-linkedin', classes.in)} />
                       </IconButton>
                     </div>
                     <div className={classes.contact}>
-                      <Typography className={text.paragraph}>
-                        {t('unisex-landing.footer_contact')}
-                        <br />
-                        +12 345 678 90
-                      </Typography>
                       <Divider className={classes.divider} />
                       <Typography className={text.paragraph}>
                         {t('unisex-landing.footer_hello')}
                         <br />
-                        jenadoe.skype
+                        ssumoncd2017@gmail.com
                       </Typography>
                     </div>
                   </div>

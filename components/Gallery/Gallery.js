@@ -14,68 +14,40 @@ import useStyle from './gallery-style';
 
 const portfolio = [
   {
-    img: imgAPI.unisex[6],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    img: 'https://www.seoclerk.com/pics/000/894/128/3dd67f9bc22f13b4db45285910d10e62.gif',
+    title: 'On Page SEO',
+    link: 'https://www.seoclerk.com/SEO-Reports/732286/I-will-provide-wordpress-onpage-SEO-services-perfectly',
     size: 'short',
     category: 'cat1'
   },
   {
-    img: imgAPI.unisex[7],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
+    img: 'https://www.seoclerk.com/pics/000/894/128/41a703a11874c7f1b10c8917feba09ac.gif',
+    title: 'Local SEO',
+    link: 'https://www.seoclerk.com/local-seo/733371/I-will-create-amp-manage-local-SEO-google-my-business',
+    size: 'short',
+    category: 'cat1'
+  },
+  {
+    img: 'https://www.seoclerk.com/pics/000/894/128/10a02bdb257a8fa71343e68f4a9ff368.gif',
+    title: 'Youtube Seo',
+    link: 'https://www.seoclerk.com/youtube/737635/I-will-do-YouTube-SEO-optimization-and-will-be-manager',
+    size: 'short',
     category: 'cat2'
   },
   {
-    img: imgAPI.unisex[8],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    img: 'https://www.seoclerk.com/pics/000/894/128/6e88aeff82b89528142aaea62529acf4.gif',
+    title: 'Create YouTube account',
+    link: 'https://www.seoclerk.com/social-posts-management/791706/I-will-create-brand-YouTube-account-optimize-amp-full-setup',
+    size: 'short',
+    category: 'cat2'
+  },
+  {
+    img: 'https://www.seoclerk.com/pics/000/894/128/64af3102310af4a2fe8c076c6e5b21aa.gif',
+    title: 'Build Your Email',
+    link: 'https://www.seoclerk.com/email-newsletters/825260/I-will-deliver-5k-USA-active-email-list-for-email-marketing',
     size: 'short',
     category: 'cat3'
-  },
-  {
-    img: imgAPI.unisex[9],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
-    category: 'cat1'
-  },
-  {
-    img: imgAPI.unisex[10],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat2'
-  },
-  {
-    img: imgAPI.unisex[11],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat3'
-  },
-  {
-    img: imgAPI.unisex[12],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat1'
-  },
-  {
-    img: imgAPI.unisex[14],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat2'
-  },
-  {
-    img: imgAPI.unisex[13],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
-    category: 'cat2'
-  },
+  } 
 ];
 
 function Gallery() {
@@ -160,32 +132,20 @@ function Gallery() {
             onClick={() => filterChildren('cat1')}
             className={filter === 'cat1' ? classes.selected : ''}
           >
-            Category 1
+            SEO
           </Button>
           <Button
             onClick={() => filterChildren('cat2')}
             className={filter === 'cat2' ? classes.selected : ''}
           >
-            Category 2
+            Youtube
           </Button>
           <Button
             onClick={() => filterChildren('cat3')}
             className={filter === 'cat3' ? classes.selected : ''}
           >
-            Category 3
-          </Button>
-          <Button
-            onClick={() => filterChildren('cat4')}
-            className={filter === 'cat4' ? classes.selected : ''}
-          >
-            Category 4
-          </Button>
-          <Button
-            onClick={() => filterChildren('cat5')}
-            className={filter === 'cat5' ? classes.selected : ''}
-          >
-            Category 5
-          </Button>
+            Marketing
+          </Button>          
         </div>
         {!isMobile ? (
           <Fragment>
