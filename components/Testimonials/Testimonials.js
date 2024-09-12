@@ -214,7 +214,7 @@ function Testimonials() {
                       size="large"
                       className={classes.button}
                       variant="contained"
-                      style={{ position: 'absolute', zIndex: 9999999999999 }}
+                      style={{ position: 'absolute', zIndex: '9999999999999 !important' }}
                     >
                       {t('unisex-landing.testi_button')}
                     </Button>
@@ -222,7 +222,7 @@ function Testimonials() {
                 </ScrollAnimation>
               </div>
             </Grid>
-          </Grid>
+          </Grid> 
         </div>
       </ScrollAnimation>
     </Container>

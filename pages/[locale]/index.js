@@ -61,12 +61,12 @@ const useStyles = makeStyles({ uniqId: 'home' })(theme => ({
   parallaxWrap: {
     position: 'relative'
   },
-  bottomDeco: {
-    top: -200,
-    position: 'absolute',
-    width: '100%',
-    height: 'calc(100% + 200px)'
-  }
+  // bottomDeco: {
+  //   top: -200,
+  //   position: 'absolute',
+  //   width: '100%',
+  //   height: 'calc(100% + 200px)'
+  // }
 }));
 
 function Landing(props) {
