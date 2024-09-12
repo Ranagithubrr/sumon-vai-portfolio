@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Fade from '@mui/material/Fade';
 import { useTranslation } from 'next-i18next';
-import logo from '~/public/images/unisex-logo.svg';
+import logo from '~/public/images/unisex-logo.png';
 import brand from '~/public/text/brand';
 import { useText } from '~/theme/common';
 import routeLink from '~/public/text/link';
@@ -124,7 +124,7 @@ function Header(props) {
                   </Link>
                 ) : (
                   <AnchorLink href="#home">
-                    <img src={logo} alt="logo" />
+                    <img src={logo} alt="logo" style={{ height: '60px', width: '70px' }} />
                   </AnchorLink>
                 )}
               </div>
@@ -188,7 +188,9 @@ function Header(props) {
                       color="primary"
                       className={classes.download}
                       component="a"
-                    >Download CV</Button>
+                    >
+                      Download CV
+                    </Button>
                     <div className={classes.socmed}>
                       <IconButton href="https://www.facebook.com/MarketerSumon12" target="_blank" aria-label="Delete" className={classes.margin} size="small">
                         <i className={cx('ion-logo-facebook', classes.fb)} />

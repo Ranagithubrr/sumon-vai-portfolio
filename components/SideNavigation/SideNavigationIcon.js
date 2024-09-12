@@ -6,7 +6,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 import { useTranslation } from 'next-i18next';
-import logo from '~/public/images/unisex-logo.svg';
+import logo from '~/public/images/unisex-logo.png';
 import useStyles from './sidenav-icon-style';
 import navMenu from './menu';
 
@@ -41,7 +41,7 @@ function SideNavigation() {
     <div className={classes.navigation}>
       <nav className={classes.navMenu}>
         <AnchorLink href="#home" className={classes.logo}>
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" style={{ height: '100%' }} />
         </AnchorLink>
         <List component="nav" className={classes.menu}>
           <Scrollspy
