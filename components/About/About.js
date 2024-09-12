@@ -46,7 +46,7 @@ function About() {
                   <figure>
                     <img src="/images/unisex/reward3.svg" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>Best Filmography</Typography>
+                  <Typography component="p" className={text.paragraph}>Best Marketer</Typography>
                   <Typography variant="h5" className={text.subtitle}>Footage</Typography>
                 </div>
               </div>

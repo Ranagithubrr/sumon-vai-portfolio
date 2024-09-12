@@ -3,7 +3,7 @@ import imgAPI from '~/public/images/imgAPI';
 const brand = {
   unisex: {
     name: 'Sumon Chandra Das',
-    title: 'Digital Marketer and YouTube SEO Expert',
+    title: 'Professional Digital Marketer',
     desc: 'Iluxi Profile - React Single Landing Page Template',
     prefix: 'Iluxi',
     footerText: 'Iluxi Theme 2022',

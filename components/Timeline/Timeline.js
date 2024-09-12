@@ -54,7 +54,7 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Digital Marketer</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Head of Digital Marketer</Typography>
                         <Typography gutterBottom>at Nifty IT Solution Ltd</Typography>
                         <Typography className={classes.time}>July 2023 - Present</Typography>
                       </div>

@@ -80,7 +80,7 @@ function BannerNav(props) {
                       variant="outlined"
                       className={classes.download}
                       component="a"
-                      href="../../public/files/resume.pdf"
+                      href="https://drive.usercontent.google.com/download?id=1r5dk2VMVlIWENQP2fyso4JKNe4GjwHQm&export=download&authuser=0&confirm=t&uuid=5fcac9f7-56f2-4c8b-bfce-957fbbd3c45d&at=AO7h07e5bu8wLGWEedAurYoJn1Bb:1726138408061"
                       download="My_CV.pdf"
                     >
                       Download CV

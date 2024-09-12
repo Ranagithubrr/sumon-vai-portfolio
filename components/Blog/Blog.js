@@ -3,45 +3,49 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Carousel from 'react-slick';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import { useTranslation } from 'next-i18next';
 import { useText } from '~/theme/common';
 import Title from '../Title';
 import BlogPostCard from '../Cards/BlogPost';
 import useStyle from './blog-style';
-import imgApi from '~/public/images/imgAPI';
 
 const blogData = [
   {
-    img: imgApi.photo[0],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    img: 'https://neilpatel.com/wp-content/uploads/2015/06/how-to-reduce-bounce-rate-001-700x420.webp',
+    title: 'How to Reduce Bounce Rate and Focus on Increasing Conversions',
+    desc: 'Most people define bounce rate as the…',
+    url: 'https://neilpatel.com/blog/13-ways-to-reduce-bounce-rate-and-increase-your-conversions/'
   },
   {
-    img: imgApi.photo[1],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    img: 'https://neilpatel.com/wp-content/uploads/2022/08/SEO-vs-SEM-003-700x420.webp',
+    title: 'SEO vs. SEM: What’s the Difference?',
+    desc: 'Let’s talk SEO vs. SEM. These terms are key parts of the digital marketing world…',
+    url: 'https://neilpatel.com/blog/seo-vs-sem/'
   },
   {
-    img: imgApi.photo[2],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    img: 'https://neilpatel.com/wp-content/uploads/2017/05/SEO-Friendly-URLs-006-700x420.webp',
+    title: 'How to Create SEO-Friendly URLs',
+    desc: 'Did you know incorporating SEO in a URL is one of the most basic elements of online optimization…',
+    url: 'https://neilpatel.com/blog/seo-urls/'
   },
   {
-    img: imgApi.photo[3],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    img: 'https://neilpatel.com/wp-content/uploads/2022/04/link-bait-002-700x420.webp',
+    title: 'Link Bait: Everything You Need to Know',
+    desc: 'Are you looking to improve your search engine rankings? Getting backlinks…',
+    url: 'https://neilpatel.com/blog/13-efficient-link-building-strategies-for-busy-marketers/'
   },
   {
-    img: imgApi.photo[4],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    img: 'https://neilpatel.com/wp-content/uploads/2024/08/18-Mobile-SEO-700x420.jpg',
+    title: 'A Complete Guide to Mobile SEO',
+    desc: 'It could have something to do with whether you have gone all in on mobile SEO...',
+    url: 'https://neilpatel.com/blog/mobile-seo/'
   },
   {
-    img: imgApi.photo[5],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    img: 'https://neilpatel.com/wp-content/uploads/2016/05/Broken-Link-Building-001-700x420.webp',
+    title: 'Broken Link Building Strategies',
+    desc: 'Do you realize you might have potential traffic your site is missing out on? It’s all…',
+    url: 'https://neilpatel.com/blog/dont-let-it-rot-5-strategies-to-leverage-broken-links/'
   },
 ];
 
@@ -96,9 +100,9 @@ function Blog() {
           </strong>
         </Title>
         <Typography gutterBottom className={text.paragraph}>
-          {t('unisex-landing.blog_desc')}
+          {/* {t('unisex-landing.blog_desc')} */}
         </Typography>
-        <Button className={classes.link} color="primary" href="#">luxi-theme.blog.com</Button>
+        {/* <Button className={classes.link} color="primary" href="#">luxi-theme.blog.com</Button> */}
       </div>
       <div className={classes.sliderWrap}>
         <div className={classes.carousel}>
@@ -121,6 +125,7 @@ function Blog() {
                   img={item.img}
                   title={item.title}
                   desc={item.desc}
+                  url={item.url}
                 />
               </div>
             ))}

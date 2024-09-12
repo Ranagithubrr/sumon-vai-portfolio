@@ -109,7 +109,7 @@ function Landing(props) {
               <Gallery />
             </section>
           </div>
-          <section id="testimonials">
+          <section id="testimonials" style={{ zIndex: 999999 }}>
             <Testimonials />
           </section>
           <div className={classes.parallaxWrap}>

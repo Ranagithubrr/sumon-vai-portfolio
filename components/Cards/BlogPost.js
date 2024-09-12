@@ -14,6 +14,7 @@ function BlogPost(props) {
     img,
     title,
     desc,
+    url
   } = props;
   const { t } = useTranslation('common');
 
@@ -27,7 +28,8 @@ function BlogPost(props) {
         <Typography display="block" component="p" className={text.paragraph}>{desc}</Typography>
       </div>
       <Button
-        href="#"
+        href={url}
+        target="_blank"
         color="primary"
         className={classes.readmore}
         classes={{

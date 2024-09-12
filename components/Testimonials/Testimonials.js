@@ -204,7 +204,7 @@ function Testimonials() {
                   delay={300}
                   duration={0.3}
                 >
-                  <div style={{zIndex: 9999999 }}>
+                  <div style={{ zIndex: 9999999 }}>
                     <Typography component="p" className={text.paragraph}>
                       {t('unisex-landing.testi_desc')}
                     </Typography>
